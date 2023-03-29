@@ -12,7 +12,7 @@
 <ul>
   <li>It takes approximately 1 minute for the headline at the webpage to be updated with the latest changes.</li>
   <li>The service type is NodePort because I developed this process on 2 VMs created locally by VirtualBox, with no ability to create LoadBalancer automatically. For the same reason, I didn’t perform the bonus part of the task :(</li>
-  <li>Because KIND is running locally on the VM, we’ll test the output of the NGINX webpage with the curl command. First, check what is the internal IP of the remote node in your KIND cluster (`kubectl get node -o wide`), and then run `curl http://<node ip>:30001`.</li>
+  <li>Because KIND is running locally on the VM, we’ll test the output of the NGINX webpage with the curl command. First, check what is the internal IP of the remote node in your KIND cluster (`kubectl get node -o wide`), and then run `curl http://node ip:30001`.</li>
 </ul>
 
 ## Prerequisites
